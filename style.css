@@ -11,14 +11,38 @@ body{
     text-align: justify;
   }
   img{
-    margin-left: 210px;
+    margin-left: 80px;
   }
    a {
     text-decoration: none;
-    padding: 30px;
+    padding: 60px;
     text-align: justify;
     font-weight: 400;
    }
+   .layer1 {
+    background-color: #f0f0f0; /* Цвет фона слоя */
+    padding-left: 50px; /* Поля вокруг текста */
+    padding-right: 1px;
+    float: left; /* Обтекание по правому краю */
+    width: 400px; /* Ширина слоя */
+   }
+   .layer2 {
+    background-color: #eddfdf; /* Цвет фона слоя */
+    padding-left: 0px; /* Поля вокруг текста */
+    padding-right: 10px;
+    width: 300px; /* Ширина слоя */
+    float: left; /* Обтекание по правому краю */
+   }
+   .layer3 {
+    background-color: #f0f0f0; /* Цвет фона слоя */
+    padding: 10px; /* Поля вокруг текста */
+    width: 300px; /* Ширина слоя */
+    float: left; /* Обтекание по правому краю */
+   }
+   .clear {
+   clear: left; /* Отмена обтекания */
+  }
+
    table{
      width: 100%;
      margin-left: 10px; /* Отступ слева в пикселах */
@@ -49,8 +73,7 @@ body{
   }
   h6{
     color:#9c8f94;
-    background-color: #d4c5cb;
-  }
+    }
   p {
     text-align: justify; /* Выравнивание по ширине */
     margin-left: 10px; /* Отступ слева в пикселах */
