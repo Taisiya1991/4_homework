@@ -1,0 +1,86 @@
+*{
+  padding:0;
+  margin:0;
+}
+
+body{
+    font-family: Arial, Verdana,  sans-serif; /* Семейство шрифтов */
+    font-size: 11pt; /* Размер основного шрифта в пунктах  */
+    background-color: #f0f0f0; /* Цвет фона веб-страницы */
+    color: #1e1d1f;
+    text-align: justify;
+    }
+#header_menu{
+  text-align: justify;
+  color: #f7f2f2;
+  background-color: #b40260;
+  text transform: uppercase;
+}
+a {
+  text-transform: uppercase;
+  background-color: #b40260;
+  text-decoration: none;
+  color: #f7f2f2;
+  padding-left: 60px;
+  font-weight: bold;
+  text-align: center;
+}
+nav{
+  background-color: #b40260;
+}
+#header{
+  background-color: #000000;
+  color: #f7f2f2;
+}
+#header_pic{
+  width: 10px;
+  float: right;
+}
+
+  #container {
+   width: 900px; /* Ширина макета */
+   margin: 0 auto; /* Выравнивание по центру */
+  }
+  #aside_l {
+   width: 400px; /* Ширина левой колонки */
+   float: left;
+  }
+#content {
+   margin: 0 900px 0 400px; /* Отступ на ширину левой и правой колонки*/
+  }
+
+  #aside_r {
+   width: 200px; /* Ширина правой колонки */
+   float: right;
+  }
+  p {
+    text-align: justify; /* Выравнивание по ширине */
+    margin-left: 10px; /* Отступ слева в пикселах */
+    margin-right: 10px; /* Отступ справа в пикселах */
+    border-left: 1px; /* Параметры линии слева */
+    border-bottom: 1px; /* Параметры линии снизу */
+    padding-left: 1px; /* Отступ от линии слева до текста  */
+    padding-bottom: 10px; /* Отступ от линии снизу до текста  */
+    margin-top: 5%;
+  }
+  #footer{
+  background-color: #b40260;
+  color: #fff5f9;
+  clear: both;
+  text-align: center;
+  }
+  h2{
+    color: #b40260;
+  }
+  .info{
+    color: #a89e9e;
+  }
+.tag{
+  text-transform: uppercase;
+  background-color: #b8b8b8;
+  text-align: left;
+}
+h3{
+  color: #b40260;
+  text-transform: uppercase;
+}
